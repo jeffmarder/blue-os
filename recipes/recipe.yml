@@ -181,6 +181,7 @@ modules:
         - Terminus
         - JetBrainsMono
         - NerdFontsSymbolsOnly
+        - Ubuntu
       google-fonts:
         - Roboto
         - Open Sans
