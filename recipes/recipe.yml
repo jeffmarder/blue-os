@@ -34,6 +34,27 @@ modules:
       - pkgconf
       - strace
 
+      # Python build dependencies
+      - zlib-devel
+      - bzip2
+      - bzip2-devel
+      - readline-devel
+      - sqlite
+      - sqlite-devel
+      - openssl-devel
+      - xz
+      - xz-devel
+      - libffi-devel
+      - findutils
+      - tk-devel
+
+      # Other build dependencies
+      - libyaml-devel
+      - readline-devel
+      - gdbm-devel
+      - ncurses-devel
+      - rlwrap
+
       # Virtualization
       - virt-install
       - libvirt-daemon-config-network
