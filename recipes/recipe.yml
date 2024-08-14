@@ -163,10 +163,6 @@ modules:
   - type: brew
     brew-analytics: false
 
-  - type: bling
-    install:
-      - ublue-update
-
   - type: fonts
     fonts:
       nerd-fonts:
