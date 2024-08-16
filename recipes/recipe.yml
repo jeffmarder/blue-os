@@ -115,6 +115,7 @@ modules:
       - ripgrep
       - fzf
       - direnv
+      - variety
 
       # - micro
       # - starship
