@@ -117,6 +117,7 @@ modules:
       - direnv
       - variety
       - stubby
+      - vorta
 
       # - micro
       # - starship
@@ -139,7 +140,6 @@ modules:
       install:
         - org.mozilla.firefox
         - com.bitwarden.desktop
-        - com.borgbase.Vorta
         - com.discordapp.Discord
         - com.github.tchx84.Flatseal
         - com.google.Chrome
