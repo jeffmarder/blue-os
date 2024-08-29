@@ -116,6 +116,8 @@ modules:
       - ripgrep
       - fzf
       - direnv
+      - variety
+      - stubby
 
       # - micro
       # - starship
@@ -159,9 +161,10 @@ modules:
         - io.github.unknownskl.greenlight
         - org.fedoraproject.MediaWriter
         - org.kde.filelight
-        - io.github.flattool.Warehouse 
+        - io.github.flattool.Warehouse
         - org.gnome.Boxes
         - org.kde.kcolorchooser
+        - org.godotengine.Godot
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
