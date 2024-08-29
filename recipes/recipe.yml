@@ -102,6 +102,7 @@ modules:
       - podman-compose
       - qemu
       - ydotool
+      - inotify-tools
 
       - steam-devices
       - distrobox
