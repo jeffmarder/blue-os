@@ -73,6 +73,7 @@ modules:
       - skopeo
       - toolbox
       - podman
+      - podman-compose
 
       - adobe-source-code-pro-fonts
       - bootc
@@ -97,7 +98,6 @@ modules:
       - mesa-libGLU
       - openrgb
       - plasma-wallpapers-dynamic
-      - podman-compose
       - powertop
       - python3-pip
       - qemu
