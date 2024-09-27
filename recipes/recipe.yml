@@ -35,24 +35,24 @@ modules:
       - strace
 
       # Python build dependencies
-      - zlib-devel
       - bzip2
       - bzip2-devel
+      - findutils
+      - libffi-devel
+      - openssl-devel
       - readline-devel
       - sqlite
       - sqlite-devel
-      - openssl-devel
+      - tk-devel
       - xz
       - xz-devel
-      - libffi-devel
-      - findutils
-      - tk-devel
+      - zlib-devel
 
       # Other build dependencies
-      - libyaml-devel
-      - readline-devel
       - gdbm-devel
+      - libyaml-devel
       - ncurses-devel
+      - readline-devel
       - rlwrap
 
       # Virtualization
@@ -67,57 +67,54 @@ modules:
       - virt-top
 
       # Container Management
-      - podman
       - buildah
       - flatpak
       - flatpak-builder
       - skopeo
       - toolbox
+      - podman
 
+      - adobe-source-code-pro-fonts
       - bootc
+      - code
+      - direnv
+      - distrobox
       - firewall-config
       - fuse-encfs
+      - fzf
+      - gh
+      - git
       - hplip
       - ifuse
-      - mesa-libGLU
-      - python3-pip
-      - rclone
-      - samba
-      - tailscale
-      - tmux
-      - wl-clipboard
-
-      - skanpage
-      - libadwaita-qt5
-      - libadwaita-qt6
+      - inotify-tools
       - kde-runtime-docs
       - kdenetwork-filesharing
       - kdeplasma-addons
       - kdialog
-      - plasma-wallpapers-dynamic
-
-      - adobe-source-code-pro-fonts
-      - code
+      - libadwaita-qt5
+      - libadwaita-qt6
       - libvirt
-      - podman-compose
-      - qemu
-      - ydotool
-      - inotify-tools
-
-      - steam-devices
-      - distrobox
-      - git
-      - stow
-      - vim-default-editor
+      - mesa-libGLU
       - openrgb
-      - gh
-      - tlp
+      - plasma-wallpapers-dynamic
+      - podman-compose
       - powertop
+      - python3-pip
+      - qemu
+      - rclone
       - ripgrep
-      - fzf
-      - direnv
-      - variety
+      - samba
+      - skanpage
+      - steam-devices
+      - stow
       - stubby
+      - tailscale
+      - tlp
+      - tmux
+      - variety
+      - vim-default-editor
+      - wl-clipboard
+      - ydotool
 
       # - micro
       # - starship
@@ -138,36 +135,35 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - org.mozilla.firefox
         - com.bitwarden.desktop
         - com.borgbase.Vorta
+        - com.brave.Browser
         - com.discordapp.Discord
         - com.github.tchx84.Flatseal
         - com.google.Chrome
+        - com.heroicgameslauncher.hgl
+        - com.logseq.Logseq
         - com.valvesoftware.Steam
         - com.vivaldi.Vivaldi
+        - io.freetubeapp.FreeTube
+        - io.github.flattool.Warehouse
+        - io.github.unknownskl.greenlight
+        - org.fedoraproject.MediaWriter
         - org.gimp.GIMP
+        - org.godotengine.Godot
         - org.inkscape.Inkscape
+        - org.kde.filelight
         - org.kde.gwenview
         - org.kde.kcalc
+        - org.kde.kcolorchooser
         - org.kde.kdenlive
         - org.kde.krita
         - org.kde.okular
         - org.libreoffice.LibreOffice
+        - org.mozilla.firefox
         - org.qbittorrent.qBittorrent
         - org.videolan.VLC
         - sh.cider.Cider
-        - com.heroicgameslauncher.hgl
-        - io.github.unknownskl.greenlight
-        - org.fedoraproject.MediaWriter
-        - org.kde.filelight
-        - io.github.flattool.Warehouse
-        - org.gnome.Boxes
-        - org.kde.kcolorchooser
-        - org.godotengine.Godot
-        - com.logseq.Logseq
-        - com.brave.Browser
-        - io.freetubeapp.FreeTube
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
