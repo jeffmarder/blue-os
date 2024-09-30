@@ -105,6 +105,7 @@ modules:
       - ripgrep
       - samba
       - skanpage
+      - starship
       - steam-devices
       - stow
       - stubby
@@ -116,8 +117,6 @@ modules:
       - wl-clipboard
       - ydotool
 
-      # - micro
-      # - starship
     remove:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
